@@ -1,0 +1,204 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4b2d2d;
+    color: #333;
+}
+
+header {
+    background-color: #4b2d2d;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: white;
+   
+    background-size: cover; /* Faz com que a imagem cubra todo o espaço da seção */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    
+}
+
+.projeto {
+    margin-bottom: 20px;
+}
+.frase1{
+    font-family: cursive;
+}
+
+.img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+    margin-left:  600px;
+}
+
+.imgbasket {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+    margin-left:  600px;
+    border-style:inset;
+}
+
+.logo1 {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+    margin-left:  60px;
+}
+
+.logo2 {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+    margin-left:  1000px;
+}
+
+
+.content{
+    text-align: center;
+}
+
+.titulo{
+    text-align: center;
+     margin-bottom: 50px;
+}
+
+.box {
+	width: 150px;
+	display: inline-block;
+}
+.linkedinlogo{
+    width: 30px;
+    margin-left:  700px;
+
+}
+.githublogo{
+    width: 30px;
+    margin-left:  600px;
+
+}
+.blo{
+    width: 30px;
+    margin-left:  500px;
+
+}
+
+.form {
+    width: 100%;
+    max-width: 250px;
+    margin: 30px auto;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form textarea:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 8px rgba(74, 144, 226, 0.2);
+    outline: none;
+}
+
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form textarea:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 8px rgba(74, 144, 226, 0.2);
+    outline: none;
+}
+
+.form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form button[type="submit"]:hover {
+    background-color: #357abd;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+    color: #999;
+}
+.form textarea {
+    min-height: 80px;
+    resize: vertical; /* Permite redimensionamento vertical */
+}
+.link{
+    color:#ddd;
+}
+
+.info {
+    margin-bottom: 8px; /* espaçamento entre linhas */
+}
+.info2 {
+    margin-top: 5px; 
+    margin-bottom: 5;
+    
+}
+
+
+strong {
+    font-weight: bold;
+    margin-right: 5px; /* espaçamento entre o título e o conteúdo */
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
